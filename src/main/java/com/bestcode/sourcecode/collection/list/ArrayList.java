@@ -1,8 +1,9 @@
 package com.bestcode.sourcecode.collection.list;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class ArrayList<E> extends AbstractList<E> implements List<E> {
+public class ArrayList<E> extends AbstractList<E> implements List<E>, Serializable {
 
     private static final int DEFAULT_CAPACITY = 10;
 
